@@ -106,4 +106,4 @@ Below is some quick steps to show how you can use this node and a sample workflo
 
 ## Version history
 
-0.1.0 - Initial Release
+1.0.0 - Initial Release

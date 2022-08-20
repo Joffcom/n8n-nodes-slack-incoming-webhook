@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-slack-incoming-webhook",
-  "version": "0.1.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "n8n node to work with the Slack Incoming Webhook add-on",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -28,6 +28,7 @@
     "dist"
   ],
   "n8n": {
+    "n8nNodesApiVersion": 1,
     "credentials": [
       "dist/credentials/SlackIncomingWebhookApi.credentials.js"
     ],

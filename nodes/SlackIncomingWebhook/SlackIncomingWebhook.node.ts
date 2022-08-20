@@ -71,7 +71,7 @@ export class SlackIncomingWebhook implements INodeType {
 				const options = this.getNodeParameter('options', i) as IDataObject;
 				if (operation === 'sendMessage') {
 
-					let body: IDataObject = {};
+					const body: IDataObject = {};
 
 					const message = this.getNodeParameter('message', i) as string;
 					body.text = message;
